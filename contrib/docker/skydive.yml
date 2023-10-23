@@ -4,6 +4,7 @@ agent:
       - ovsdb
       - docker
       - runc
+      - neutron
 
   runc:
     run_path:
