@@ -13,3 +13,9 @@ agent:
 
 analyzer:
   listen: 0.0.0.0:8082
+  topology:
+      probes:
+        - k8s
+        - ovn
+      ovn:
+        address: tcp:100.18.35.73:6641
